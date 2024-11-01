@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: "Montserrat", sans-serif; }
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgb(80 91 108);
+}
 
 blockquote {
   background: #0a85ff24;
@@ -10,13 +17,56 @@ blockquote {
   color: #666;
   margin: 20px 0;
   padding: 1px 20px;
-  p{
+
+  p {
     font-size: 14px;
     display: block;
     margin-block-start: 1em !important;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
     unicode-bidi: isolate;
   }
+}
+
+h1 {
+  font-size: 1.43em;
+  color: rgb(80 91 108);
+}
+
+
+hr {
+  border: 1px solid #ededed;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.20em;
+  color: rgb(80 91 108);
+}
+
+h3 {
+  font-size: 1.142em;
+  color: rgb(80 91 108);
+}
+
+table {
+  width: 100%;
+
+  th {
+    background: #f1f2f4;
+    padding: 10px;
+    color: rgb(80 91 108);
+    font-size: 14px;
+  }
+
+  td {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+table, th, td {
+  border: 1px solid #dcdfe4;
+  border-collapse: collapse;
 }

@@ -2,6 +2,7 @@ import { Component } from "@angular/core";
 import 'brace';
 import 'brace/mode/markdown.js';
 import 'brace/mode/text';
+import 'brace/theme/monokai.js';
 
 @Component({
   selector: "app-root",
@@ -14,21 +15,34 @@ export class AppComponent {
   markdown = `## Markdown __rulez__!
 ---
 
-### Syntax highlight
+### > Syntax highlight
+---
 \`\`\`typescript
 const language = 'typescript';
 \`\`\`
 
-### Lists
+### > Lists
+---
 1. Ordered list
 2. Another bullet point
    - Unordered list
    - Another unordered bullet
 
-### Blockquote
+### > Blockquote
+---
 > Blockquote to the max
 
-- [ ] teste
+### > Checklist
+---
+- [ ] item 1
+- [ ] item 2
+- [x] item checked
+
+### > Table
+---
+| Column 1 | Column 2 |
+:--- | :--- |
+| Content 1 | Content 2 |
 `;
 }
 
