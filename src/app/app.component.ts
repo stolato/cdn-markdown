@@ -51,7 +51,7 @@ const language = 'typescript';
 graph LR
 A[Quadrado] -- Texto --> B(Arredondado)
 A --> C{Triangulo}
-C --> D{D}
+C --> D((Circulo))
 B --> D
 `;
 }
