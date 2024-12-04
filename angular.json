@@ -53,6 +53,7 @@
               "node_modules/mermaid/dist/mermaid.min.js",
               "node_modules/emoji-toolkit/lib/js/joypixels.min.js",
               "node_modules/clipboard/dist/clipboard.min.js",
+              "node_modules/mermaid/dist/mermaid.min.js",
               "node_modules/marked/marked.min.js"
             ]
           },
